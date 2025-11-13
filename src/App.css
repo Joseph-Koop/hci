@@ -1,0 +1,32 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif,
+    "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+html,
+body {
+  @apply bg-white dark:bg-gray-950;*/
+
+  @media (prefers-color-scheme: dark) {
+    color-scheme: dark;
+  }
+}
+
+body{
+  height: 100vh;
+  color: white;
+  background-image: url("background1.jpg");
+  background-size: cover;
+  font-family: Helvetica, Verdana, sans-serif;
+}
+
+h3{
+  font-family: Monaco, monospace;
+  font-style: italic;
+}
+
+a{
+  color: white;
+}
