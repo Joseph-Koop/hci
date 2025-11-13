@@ -244,8 +244,8 @@ function App() {
               </div>
             </div>
             <div>
-              <h2 className="text-center text-2xl pb-2">Slides</h2>
-              <img src="slide8.pdf" alt="Slide" width="400"></img>
+              <h2 className="text-center text-2xl pb-2">Slide</h2>
+              <img src="slide8.png" alt="Slide" width="400"></img>
               <div className="flex justify-center mt-4">
                 <a href="slide8.pdf" download="Phase 8 Slide" className="">
                   <button className="bg-orange-400 p-3 rounded-2xl flex gap-2 hover:cursor-pointer hover:bg-amber-700">PDF File<i data-lucide="download"></i></button>
