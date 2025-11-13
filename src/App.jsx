@@ -209,7 +209,9 @@ function App() {
           <h3 className="text-4xl pt-6">Medium-Fi Prototype</h3>
           <div className="flex flex-wrap justify-center gap-12">
             <div>
-              <h2 className="text-center text-2xl pb-2">Pending</h2>
+              <a className="text-center text-2xl pb-2" href="https://www.justinmind.com/open-resource?link=552b4a8e739ede3025e34fb434c8379a32143b9bd1c9440ed3e98c6e4d625944&utm_source=email&utm_medium=notification-share-editor&utm_campaign=action">
+                Link to Prototype
+              </a>
             </div>
           </div>
         </div>
@@ -221,7 +223,7 @@ function App() {
           <h3 className="text-4xl pt-6">Hi-Fi Prototype</h3>
           <div className="flex flex-wrap justify-center gap-12">
             <div>
-              <h2 className="text-center text-2xl pb-2">Future</h2>
+              <h2 className="text-center text-2xl pb-2">Pending</h2>
             </div>
           </div>
         </div>
@@ -233,7 +235,22 @@ function App() {
           <h3 className="text-4xl pt-6">Poster & Pitch</h3>
           <div className="flex flex-wrap justify-center gap-12">
             <div>
-              <h2 className="text-center text-2xl pb-2">Pending</h2>
+              <h2 className="text-center text-2xl pb-2">Poster</h2>
+              <img src="poster8.png" alt="Poster" width="400px"/>
+              <div className="flex justify-center mt-4">
+                <a href="poster8.pdf" download="Phase 8 Poster" className="">
+                  <button className="bg-orange-400 p-3 rounded-2xl flex gap-2 hover:cursor-pointer hover:bg-amber-700">PDF File<i data-lucide="download"></i></button>
+                </a>
+              </div>
+            </div>
+            <div>
+              <h2 className="text-center text-2xl pb-2">Slides</h2>
+              <img src="slide8.pdf" alt="Slide" width="400"></img>
+              <div className="flex justify-center mt-4">
+                <a href="slide8.pdf" download="Phase 8 Slide" className="">
+                  <button className="bg-orange-400 p-3 rounded-2xl flex gap-2 hover:cursor-pointer hover:bg-amber-700">PDF File<i data-lucide="download"></i></button>
+                </a>
+              </div>
             </div>
           </div>
         </div>
