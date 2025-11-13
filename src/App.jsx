@@ -50,7 +50,7 @@ function App() {
         </header>
         <div>
           <div className="flex gap-3 w-full justify-center items-center">
-            <img className="w-30 m-6" src="/logo.png" alt="Site Logo" />
+            <img className="w-30 m-6" src="logo.png" alt="Site Logo" />
             <h1 className="flex justify-center m-6 text-7xl">SiteManager</h1>
           </div>
           <div className="flex justify-center mt-10">
@@ -68,15 +68,15 @@ function App() {
           <div className="flex justify-center gap-20 bg-gray-900 p-10 rounded-2xl border-2 border-orange-500">
             <div>
               <h2 className="text-center text-2xl pb-2">Joseph</h2>
-              <img className="rounded-full border-4 border-black" src="/joseph.webp" alt="Joseph Profile Picture" />
+              <img className="rounded-full border-4 border-black" src="joseph.webp" alt="Joseph Profile Picture" />
             </div>
             <div>
               <h2 className="text-center text-2xl pb-2">Enrique</h2>
-              <img className="rounded-full border-4 border-black" src="/enrique.webp" alt="Enrique Profile Picture" />
+              <img className="rounded-full border-4 border-black" src="enrique.webp" alt="Enrique Profile Picture" />
             </div>
             <div>
               <h2 className="text-center text-2xl pb-2">Kelvin</h2>
-              <img className="rounded-full border-4 border-black" src="/kelvin.webp" alt="Kelvin Profile Picture" />
+              <img className="rounded-full border-4 border-black" src="kelvin.webp" alt="Kelvin Profile Picture" />
             </div>
           </div>
         </div>
@@ -90,9 +90,9 @@ function App() {
           <div className="flex flex-wrap justify-center gap-12">
             <div>
               <h2 className="text-center text-2xl pb-2">Slides</h2>
-              <iframe src="/slides1.pdf" width="400" height="400"></iframe>
+              <iframe src="slides1.pdf" width="400" height="400"></iframe>
               <div className="flex justify-center mt-4">
-                <a href="/slides1.pptx" download="Phase 1 Slides" className="">
+                <a href="slides1.pptx" download="Phase 1 Slides" className="">
                   <button className="bg-orange-400 p-3 rounded-2xl flex gap-2 hover:cursor-pointer hover:bg-amber-700">PowerPoint File<i data-lucide="download"></i></button>
                 </a>
               </div>
@@ -108,18 +108,18 @@ function App() {
           <div className="flex flex-wrap justify-center gap-12">
             <div>
               <h2 className="text-center text-2xl pb-2">Report</h2>
-              <iframe src="/report2.pdf" width="400" height="400"></iframe>
+              <iframe src="report2.pdf" width="400" height="400"></iframe>
               <div className="flex justify-center mt-4">
-                <a href="/report2.docx" download="Phase 2 Report" className="">
+                <a href="report2.docx" download="Phase 2 Report" className="">
                   <button className="bg-orange-400 p-3 rounded-2xl flex gap-2 hover:cursor-pointer hover:bg-amber-700">Word File<i data-lucide="download"></i></button>
                 </a>
               </div>
             </div>
             <div>
               <h2 className="text-center text-2xl pb-2">Slides</h2>
-              <iframe src="/slides2.pdf" width="400" height="400"></iframe>
+              <iframe src="slides2.pdf" width="400" height="400"></iframe>
               <div className="flex justify-center mt-4">
-                <a href="/slides2.pptx" download="Phase 2 Slides" className="">
+                <a href="slides2.pptx" download="Phase 2 Slides" className="">
                   <button className="bg-orange-400 p-3 rounded-2xl flex gap-2 hover:cursor-pointer hover:bg-amber-700">PowerPoint File<i data-lucide="download"></i></button>
                 </a>
               </div>
@@ -147,18 +147,18 @@ function App() {
           <div className="flex flex-wrap justify-center gap-12">
             <div>
               <h2 className="text-center text-2xl pb-2">Video</h2>
-              <video width="400" height="400" controls><source src="/video4.mp4" type="video/mp4"></source>Browser doesn't support video.</video>
+              <video width="400" height="400" controls><source src="video4.mp4" type="video/mp4"></source>Browser doesn't support video.</video>
               <div className="flex justify-center mt-4">
-                <a href="/video4.mp4" download="Phase 4 Video" className="">
+                <a href="video4.mp4" download="Phase 4 Video" className="">
                   <button className="bg-orange-400 p-3 rounded-2xl flex gap-2 hover:cursor-pointer hover:bg-amber-700">MP4 File<i data-lucide="download"></i></button>
                 </a>
               </div>
             </div>
             <div>
               <h2 className="text-center text-2xl pb-2">Slides</h2>
-              <iframe src="/slides4.pdf" width="400" height="400"></iframe>
+              <iframe src="slides4.pdf" width="400" height="400"></iframe>
               <div className="flex justify-center mt-4">
-                <a href="/slides4.pptx" download="Phase 4 Slides" className="">
+                <a href="slides4.pptx" download="Phase 4 Slides" className="">
                   <button className="bg-orange-400 p-3 rounded-2xl flex gap-2 hover:cursor-pointer hover:bg-amber-700">PowerPoint File<i data-lucide="download"></i></button>
                 </a>
               </div>
@@ -174,27 +174,27 @@ function App() {
           <div className="flex flex-wrap justify-center gap-12">
             <div>
               <h2 className="text-center text-2xl pb-2">Prototype</h2>
-              <iframe src="/prototype5.pdf" width="400" height="400"></iframe>
+              <iframe src="prototype5.pdf" width="400" height="400"></iframe>
               <div className="flex justify-center mt-4">
-                <a href="/prototype5.pdf" download="Phase 5 Prototype" className="">
+                <a href="prototype5.pdf" download="Phase 5 Prototype" className="">
                   <button className="bg-orange-400 p-3 rounded-2xl flex gap-2 hover:cursor-pointer hover:bg-amber-700">PDF File<i data-lucide="download"></i></button>
                 </a>
               </div>
             </div>
             <div>
               <h2 className="text-center text-2xl pb-2">Report</h2>
-              <iframe src="/report5.pdf" width="400" height="400"></iframe>
+              <iframe src="report5.pdf" width="400" height="400"></iframe>
               <div className="flex justify-center mt-4">
-                <a href="/report5.docx" download="Phase 5 Report" className="">
+                <a href="report5.docx" download="Phase 5 Report" className="">
                   <button className="bg-orange-400 p-3 rounded-2xl flex gap-2 hover:cursor-pointer hover:bg-amber-700">Word File<i data-lucide="download"></i></button>
                 </a>
               </div>
             </div>
             <div>
               <h2 className="text-center text-2xl pb-2">Slides</h2>
-              <iframe src="/slides5.pdf" width="400" height="400"></iframe>
+              <iframe src="slides5.pdf" width="400" height="400"></iframe>
               <div className="flex justify-center mt-4">
-                <a href="/slides5.pptx" download="Phase 5 Slides" className="">
+                <a href="slides5.pptx" download="Phase 5 Slides" className="">
                   <button className="bg-orange-400 p-3 rounded-2xl flex gap-2 hover:cursor-pointer hover:bg-amber-700">PowerPoint File<i data-lucide="download"></i></button>
                 </a>
               </div>
