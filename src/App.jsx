@@ -244,7 +244,7 @@ function App() {
           <div className="flex flex-wrap justify-center gap-12">
             <div>
               <p className="text-center text-lg lg:text-xl 2xl:text-2xl pb-2">Poster</p>
-              <img src="poster8.png" alt="Poster" width="400px"/>
+              <img src="poster8.png" alt="Poster" className="w-50 lg:w-70 2xl:w-90 aspect-square"/>
               <div className="flex justify-center mt-4">
                 <a href="poster8.pdf" download="Phase 8 Poster" className="">
                   <button className="bg-orange-400 p-3 rounded-2xl flex gap-2 hover:cursor-pointer hover:bg-amber-700">PDF File<i data-lucide="download"></i></button>
@@ -253,7 +253,7 @@ function App() {
             </div>
             <div>
               <p className="text-center text-lg lg:text-xl 2xl:text-2xl pb-2">Slide</p>
-              <img src="slide8.png" alt="Slide" width="400"></img>
+              <img src="slide8.png" alt="Slide" className="w-50 lg:w-70 2xl:w-90 aspect-square"></img>
               <div className="flex justify-center mt-4">
                 <a href="slide8.pdf" download="Phase 8 Slide" className="">
                   <button className="bg-orange-400 p-3 rounded-2xl flex gap-2 hover:cursor-pointer hover:bg-amber-700">PDF File<i data-lucide="download"></i></button>
