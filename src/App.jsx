@@ -69,15 +69,15 @@ function App() {
           <div className="flex flex-wrap justify-center gap-20 bg-gray-900 p-10 rounded-2xl border-2 border-orange-500">
             <div>
               <p className="text-center text-lg lg:text-xl 2xl:text-2xl pb-2">Joseph</p>
-              <img className="rounded-full border-4 border-black" src="joseph.webp" alt="Joseph Profile Picture" />
+              <img className="rounded-full border-4 h-30 w-30 border-black" src="/joseph.webp" alt="Joseph Profile Picture" />
             </div>
             <div>
               <p className="text-center text-lg lg:text-xl 2xl:text-2xl pb-2">Enrique</p>
-              <img className="rounded-full border-4 border-black" src="enrique.png" alt="Enrique Profile Picture" />
+              <img className="rounded-full border-4 h-30 w-30 border-black" src="/enrique.png" alt="Enrique Profile Picture" />
             </div>
             <div>
               <p className="text-center text-lg lg:text-xl 2xl:text-2xl pb-2">Kelvin</p>
-              <img className="rounded-full border-4 border-black" src="kelvin.webp" alt="Kelvin Profile Picture" />
+              <img className="rounded-full border-4 h-30 w-30 border-black" src="/kelvin.webp" alt="Kelvin Profile Picture" />
             </div>
           </div>
         </div>
