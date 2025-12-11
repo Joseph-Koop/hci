@@ -210,13 +210,19 @@ function App() {
         <div className="pt-30 grid grid-cols-1 grid-rows-[1fr_2fr_8fr] justify-items-center">
           <p className="text-xl lg:text-3xl 2xl:text-5xl">Phase 6</p>
           <p className="text-2xl lg:text-3xl 2xl:text-4xl pt-6">Medium-Fi Prototype</p>
-          <div className="flex flex-wrap flex-col items-center gap-12">
-            <div className="text-blue-500 underline">
-              <a className="text-center text-lg lg:text-xl 2xl:text-2xl pb-2" href="https://www.justinmind.com/open-resource?link=552b4a8e739ede3025e34fb434c8379a32143b9bd1c9440ed3e98c6e4d625944&utm_source=email&utm_medium=notification-share-editor&utm_campaign=action">
-                Link to Prototype
-              </a>
+          <div>
+            <div className="flex flex-wrap justify-center gap-12">
+              <div>
+                <p className="text-center text-lg lg:text-xl 2xl:text-2xl pb-2">Prototype</p>
+                <iframe src="prototype6.pdf"  className="w-50 lg:w-70 2xl:w-90 aspect-square"></iframe>
+                <div className="flex justify-center mt-4">
+                  <a href="prototype6.pdf" download="Phase 6 Prototype" className="">
+                    <button className="bg-orange-400 p-3 rounded-2xl flex gap-2 hover:cursor-pointer hover:bg-amber-700">PDF File<i data-lucide="download"></i></button>
+                  </a>
+                </div>
+              </div>
+              <p className="text-md lg:text-lg 2xl:text-xl text-center w-50 lg:w-70 2xl:w-90 flex items-center">Built in JustinMind's free version. Our trial accounts expired and we could only retrieve images of the project.</p>
             </div>
-            <p className="text-md lg:text-lg 2xl:text-xl w-1/2 text-center">Built in JustinMind's free version, our accounts expired and we couldn't retrieve the project.</p>
           </div>
         </div>
       </section>
