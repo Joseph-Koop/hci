@@ -1,5 +1,31 @@
-HCI Website
+# HCI Final Website
 
-SiteManager
+- [React](https://reactjs.org) • [Vite](https://vitejs.dev)
 
-Construction companies need a digital dashboard to track all projects, employees, and equipment in one place because current systems lack real-time visibility and lead to inefficiencies. Our solution is to create a live map that links to projects and shows exactly which employees, equipment, and materials are needed at each location.
+---
+
+### Created by Group 4 (SiteManager):
+
+- Joseph Koop
+- Enrique Garcia
+- Kelvin Gordon
+
+[Link to Website](https://joseph-koop.github.io/hci/)
+
+---
+
+## Overview
+
+This is our website documenting the process we took over the semester in designing and creating our application.
+You will find the following items:
+
+- The overview
+- The team page
+- All phases of the project
+- All slides, reports, the video, and the links to our prototypes
+
+---
+
+Built with React + Vite
+
+---

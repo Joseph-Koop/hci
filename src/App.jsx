@@ -222,17 +222,33 @@ function App() {
       </section>
 
       <section id="phase-7" className="h-screen snap-start flex justify-center w-full">
-        <div className="pt-30 grid grid-cols-1 grid-rows-[1fr_2fr_8fr] justify-items-center">
+        <div className="pt-30 grid grid-cols-1 grid-rows-[1fr_2fr_2fr_6fr] justify-items-center">
           <p className="text-xl lg:text-3xl 2xl:text-5xl">Phase 7</p>
           <p className="text-2xl lg:text-3xl 2xl:text-4xl pt-6">Hi-Fi Prototype</p>
-          <div className="flex flex-wrap justify-center gap-12">
-            <div className="flex flex-wrap justify-center gap-12 text-blue-500 underline">
-            <div>
-              <a className="text-center text-lg lg:text-xl 2xl:text-2xl pb-2" href="https://joseph-koop.github.io/hci-final/">
-                Link to Hi-Fi Prototype
-              </a>
-            </div>
+          <div className="flex flex-wrap justify-center gap-12 text-blue-500 underline">
+            <a className="text-center text-lg lg:text-xl 2xl:text-2xl pb-2" href="https://joseph-koop.github.io/hci-final/">
+              Link to Hi-Fi Prototype
+            </a>
           </div>
+          <div className="flex flex-wrap justify-center gap-12">
+            <div>
+              <p className="text-center text-lg lg:text-xl 2xl:text-2xl pb-2">Report</p>
+              <iframe src="report7.pdf"  className="w-50 lg:w-70 2xl:w-90 aspect-square"></iframe>
+              <div className="flex justify-center mt-4">
+                <a href="report7.docx" download="Phase 7 Report" className="">
+                  <button className="bg-orange-400 p-3 rounded-2xl flex gap-2 hover:cursor-pointer hover:bg-amber-700">Word File<i data-lucide="download"></i></button>
+                </a>
+              </div>
+            </div>
+            <div>
+              <p className="text-center text-lg lg:text-xl 2xl:text-2xl pb-2">Slides</p>
+              <iframe src="slides7.pdf"  className="w-50 lg:w-70 2xl:w-90 aspect-square"></iframe>
+              <div className="flex justify-center mt-4">
+                <a href="slides7.pptx" download="Phase 7 Slides" className="">
+                  <button className="bg-orange-400 p-3 rounded-2xl flex gap-2 hover:cursor-pointer hover:bg-amber-700">PowerPoint File<i data-lucide="download"></i></button>
+                </a>
+              </div>
+            </div>
           </div>
         </div>
       </section>
@@ -244,7 +260,7 @@ function App() {
           <div className="flex flex-wrap justify-center gap-12">
             <div>
               <p className="text-center text-lg lg:text-xl 2xl:text-2xl pb-2">Poster</p>
-              <img src="poster8.png" alt="Poster" className="w-50 lg:w-70 2xl:w-90 aspect-square"/>
+              <img src="poster8.png" alt="Poster" className="w-50 lg:w-70 2xl:w-90 aspect-square object-cover"/>
               <div className="flex justify-center mt-4">
                 <a href="poster8.pdf" download="Phase 8 Poster" className="">
                   <button className="bg-orange-400 p-3 rounded-2xl flex gap-2 hover:cursor-pointer hover:bg-amber-700">PDF File<i data-lucide="download"></i></button>
@@ -253,7 +269,7 @@ function App() {
             </div>
             <div>
               <p className="text-center text-lg lg:text-xl 2xl:text-2xl pb-2">Slide</p>
-              <img src="slide8.png" alt="Slide" className="w-50 lg:w-70 2xl:w-90 aspect-square"></img>
+              <img src="slide8.png" alt="Slide" className="w-50 lg:w-70 2xl:w-90 aspect-square object-cover"></img>
               <div className="flex justify-center mt-4">
                 <a href="slide8.pdf" download="Phase 8 Slide" className="">
                   <button className="bg-orange-400 p-3 rounded-2xl flex gap-2 hover:cursor-pointer hover:bg-amber-700">PDF File<i data-lucide="download"></i></button>
