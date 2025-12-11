@@ -73,7 +73,7 @@ function App() {
             </div>
             <div>
               <p className="text-center text-lg lg:text-xl 2xl:text-2xl pb-2">Enrique</p>
-              <img className="rounded-full border-4 border-black" src="enrique.webp" alt="Enrique Profile Picture" />
+              <img className="rounded-full border-4 border-black" src="enrique.png" alt="Enrique Profile Picture" />
             </div>
             <div>
               <p className="text-center text-lg lg:text-xl 2xl:text-2xl pb-2">Kelvin</p>
@@ -222,7 +222,7 @@ function App() {
       </section>
 
       <section id="phase-7" className="h-screen snap-start flex justify-center w-full">
-        <div className="pt-30 grid grid-cols-1 grid-rows-[1fr_2fr_2fr_6fr] justify-items-center">
+        <div className="pt-30 grid grid-cols-1 grid-rows-[1fr_2fr_1fr_7fr] justify-items-center">
           <p className="text-xl lg:text-3xl 2xl:text-5xl">Phase 7</p>
           <p className="text-2xl lg:text-3xl 2xl:text-4xl pt-6">Hi-Fi Prototype</p>
           <div className="flex flex-wrap justify-center gap-12 text-blue-500 underline">
